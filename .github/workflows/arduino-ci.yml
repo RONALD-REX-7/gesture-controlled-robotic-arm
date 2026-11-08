@@ -36,3 +36,4 @@ jobs:
       - name: Compile Hardened Robotic Arm Receiver (Arduino Uno)
         run: |
           arduino-cli compile --fqbn arduino:avr:uno src/receiver
+
