@@ -74,7 +74,7 @@ jobs:
           Automated daily Arduino CLI compile verification for transmitter and receiver firmware.
 
           Co-authored-by: Ronald Rex <211186833+RONALD-REX-7@users.noreply.github.com>"
-            git push origin feat/arduino-cli-compile-ci
+            git push origin "HEAD:${{ github.ref_name }}"
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
